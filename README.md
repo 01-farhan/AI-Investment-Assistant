@@ -1,5 +1,5 @@
-# Financial-Dashboard-app
-A responsive and interactive financial dashboard built using React, Tailwind CSS, Recharts, and Framer Motion. It visualizes key financial metrics such as Revenue, Net Income, and EPS with sleek, animated line charts.
+# AI Investment Assistant
+The AI Investment Assistant is a smart web-based tool designed to help users make informed investment decisions. Built using Python, Streamlit, and machine learning libraries like scikit-learn, pandas, and NumPy, this assistant provides personalized financial insights based on user input. Whether you're a beginner or a seasoned investor, this app offers real-time risk analysis, investment suggestions, and performance tracking to simplify your financial planning journey.
  Main Features:
 1. 🎬 Intro Animation:
 Custom CSS/HTML overlay displaying a quick animated "Financial Dashboard" intro.
