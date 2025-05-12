@@ -37,14 +37,14 @@ intro_animation = """
 }
 </style>
 <div id="intro-overlay">
-    <h1>📊 Financial Dashboard</h1>
+    <h1>📊 Neuro</h1>
 </div>
 """
 
 st.markdown(intro_animation, unsafe_allow_html=True)
 
 # Main title
-st.title("📊 Financial Dashboard")
+st.title("📊 AI Investment Assistant")
 
 
 
@@ -236,7 +236,7 @@ if predicted_file and historical_file:
                  
         if time_series_file:
             st.markdown("---")
-            st.subheader("📉 Time Series Analysis: Financial Ratios (2015–2024)")
+            st.subheader("📉 Time Series Analysis: Financial Ratios (2015-2024)")
 
             # Year Selector
             selected_year = st.selectbox("📅 Select Year", sorted(ratios_df["Year"].unique()))
@@ -283,7 +283,7 @@ if ratios_file:
     ratios_df["Year"] = ratios_df["Year"].astype(str)
 
     # Year selector
-    selected_ratio_year = st.selectbox("📅 Select Year (2015–2024)", sorted(ratios_df["Year"].unique()))
+    selected_ratio_year = st.selectbox("📅 Select Year (2015-2024)", sorted(ratios_df["Year"].unique()))
 
     # Filter the row for the selected year
     selected_row = ratios_df[ratios_df["Year"] == selected_ratio_year]
